@@ -1,0 +1,57 @@
+:root{
+    --main-color:#EA5959;
+    --text-color:#5A5A5A;
+}
+.task--types__list{
+    display: flex;
+    justify-content: space-between; 
+    padding-top: auto;
+    padding-bottom: 14px;
+    padding-left: 10px;
+}
+.task--types__list .about--list{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 22px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.checkbox{
+    border: 2px solid var(--main-color);
+    width: 28px;
+    height: 28px;
+}
+
+.list__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.list__category{
+    text-decoration: none;
+    padding: 5px 19px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    color:#FFF;
+    font-size: 12px;
+    font-weight: 400;
+}
+.task-list-btn{
+    border:none;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 4px;
+    border-radius:4px;
+    background-color:var(--main-color);
+    color:white;
+    display: none;
+}
+.task--types__list:hover{
+    background-color:lightgray;
+}
+.task--types__list:hover .task-list-btn{
+    display: block;
+}

@@ -1,0 +1,15 @@
+:root{
+  --main-color:#EA5959;
+}
+
+body{
+  background-color:var(--main-color);
+}
+.container{
+  width: 983px;
+  height: 100%;
+  margin: 16px auto;
+  border-radius:8px;
+  background-color:#FFFFFF;
+  display: flex;
+}

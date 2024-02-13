@@ -1,0 +1,63 @@
+:root{
+    --input-color:#F3F3F3;
+    --main-color:#EA5959;
+}
+
+.task{
+    margin-top: 30px;
+    margin: 50px;
+    display: flex;
+    flex-flow: column;
+    border-left: 1px solid var(--border-color);
+    padding-left: 40px;
+
+}
+.inputAdd{
+    display: flex;
+}
+.inputAdd button{
+    border:none;
+    background-color:var(--main-color);
+    color: white;
+    border-radius:4px;
+    padding:0 20px;
+}
+.task ul{
+    list-style-type: none;
+}
+.task--title{
+    font-size: 41px;
+    line-height: 37.2px;
+    margin-bottom: 31px;
+    font-weight: 700;
+}
+.task--input{
+    display: inline-block;
+    width: 580px;
+    height: 47px;
+    background-color:var(--input-color);
+    border-radius:8px;
+    border: none;
+    outline: none;
+    padding-left: 27px;
+}   
+.task--input::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.4px;
+}
+.button{
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+.task-btn{
+    background-color: #EA5959;
+    padding: 4px 14px;
+    border:none;
+    color: white;
+    font-size: 18px;
+    margin-top: 70px;
+    border-radius:8px;
+    width: 200px;
+}
